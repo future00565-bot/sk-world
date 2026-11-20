@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Offline — SK World</title>
+    <style>
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: system-ui, -apple-system, sans-serif;
+        background: #0b1221;
+        color: #f8fafc;
+        padding: 24px;
+      }
+      .card {
+        max-width: 420px;
+        width: 100%;
+        padding: 32px;
+        border-radius: 20px;
+        background: #131d33;
+        border: 1px solid rgba(148, 163, 184, 0.2);
+        text-align: center;
+      }
+      h1 { font-size: 22px; margin: 16px 0 8px; }
+      p { color: #94a3b8; font-size: 15px; line-height: 1.5; margin: 0 0 24px; }
+      button {
+        background: #2563eb;
+        color: #fff;
+        border: 0;
+        padding: 12px 24px;
+        border-radius: 12px;
+        font-size: 14px;
+        font-weight: 600;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <img src="/pwa-192x192.png" alt="SK World" width="64" height="64" style="border-radius: 16px;" />
+      <h1>You are offline</h1>
+      <p>SK World could not reach the network. Check your connection and try again to sync your feed and messages.</p>
+      <button onclick="window.location.reload()">Retry Connection</button>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,6 @@
+{
+  "name": "SK World",
+  "description": "Connect. Share. Explore. Together. A modern social platform for feeds, reels, stories, real-time messaging, communities, and creator analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
